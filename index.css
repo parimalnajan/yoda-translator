@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family:"STARWARS";src:url("/STARWARS.eot?") format("eot"),url("/STARWARS.woff") format("woff"),url("/STARWARS.ttf") format("truetype"),url("/STARWARS.svg#STARWARS") format("svg");
+    font-weight:normal;font-style:normal;
+
+}
+body{
+   
+  /*  background-image:url(https://www.kolpaper.com/wp-content/uploads/2020/03/baby-yoda-wallpaper-3.jpg);*/
+  
+  background-image:url(https://www.wallpapertip.com/wmimgs/42-420382_master-yoda-wallpaper-66731-hd-wallpapers-wallpapersinhqcom-paintings.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+} 
+
+#content-wrap{
+    margin:32px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#title{
+    font-family: "STARWARS";
+    margin-bottom: 0px;
+    color:black;
+    font-size: 40px;
+    
+}
+h2{
+    margin-bottom: 96px;
+    
+}
+
+#btn-translate{
+    width: 150px;
+    height: 50px;
+
+    border-radius: 8px;
+    margin: 16px 0 16px 64px;
+    background-color: green;
+    font-family: "STARWARS";
+    letter-spacing: 1px;
+}
+
+#btn-translate:hover{
+    cursor: pointer;
+}
+
+
+.txt-input{
+    display: flex;
+    opacity: 0.5;
+    font-size: 1.5rem;
+    display: block;
+    width: 600px;
+    min-width: 320px;
+    height: 160px;
+  
+    margin-left: 64px;
+    font-weight: 700;
+    padding: 8px;
+    background-color: var(--bg-colour);
+    opacity: 0.65;
+    border-color: green;
+    border-radius: 8px;
+    border :solid black 3px
+}
+
+
+@media(max-width:720px){
+
+    .txt-input{
+        width: 90%;
+        margin:4px;
+        
+    }
+    #content-wrap{
+        margin:1%;
+        margin-top:5%;
+    }
+    #btn-translate{
+        align-self: center;
+        margin:4px;
+    }
+
+    h2{
+        margin-bottom: 48px;
+    }
+    body{
+      background-position: 33%;
+}
