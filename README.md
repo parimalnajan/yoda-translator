@@ -1,3 +1,3 @@
-# yoda-translator
+## yoda-translator
 
-## Link: https://yoda-paradox.netlify.app
+### Link: https://yoda-paradox.netlify.app
